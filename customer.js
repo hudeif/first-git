@@ -3,4 +3,7 @@ class Customer {
     console.log("added!");
   }
 
+  remove(id) {
+    console.log(id, "removed successfully.");
+  }
 }
