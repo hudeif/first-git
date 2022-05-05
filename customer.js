@@ -1,4 +1,8 @@
 class Customer {
+  constructor() {
+    console.log("constructor");
+  }
+
   addNew() {
     console.log("added!");
   }
